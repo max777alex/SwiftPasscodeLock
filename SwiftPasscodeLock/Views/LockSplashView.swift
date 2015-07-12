@@ -32,8 +32,7 @@ class LockSplashView: UIView {
         setupLayout()
     }
     
-    convenience override init() {
-        
+    convenience init() {
         self.init(frame: UIScreen.mainScreen().bounds)
     }
     
